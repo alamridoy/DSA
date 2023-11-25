@@ -1,0 +1,1 @@
+// discussion about basic info and enviroment
