@@ -31,3 +31,13 @@ for (let i = 0; i < 3; i++) {
     console.log(i)
     
 }
+
+
+let myFun= (num)=>{
+let sum = 0
+for (let index = 0; index < num; index++) {
+   sum+=index
+}
+ return sum
+}
+console.log(myFun(10))
