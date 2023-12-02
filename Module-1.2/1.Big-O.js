@@ -87,7 +87,6 @@ function log(n){
     log(2)
     
     
-    
     // constant  f(n) = O(1)
     function log(n){
       console.log(n+n+n)
