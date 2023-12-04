@@ -1,5 +1,5 @@
-// Array and object (performance) - Big(O)
-// how to approach a problem
+// Array(performance) - Big(O)
+
 
 
 
