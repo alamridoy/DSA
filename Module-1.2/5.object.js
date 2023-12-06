@@ -40,4 +40,17 @@ for (let key in obj) {  // O(n) looping and searching
      console.log("True")
     }
   }
+
+
+
+  // Object.keys()
+  console.log(Object.keys(obj)) // O(n)
+
+
+  // Object.values()
+  console.log(Object.values(obj)) // O(n)
+
+
+    // Object.entries()
+    console.log(Object.entries(obj)) // O(n)
   
