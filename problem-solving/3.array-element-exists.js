@@ -1,6 +1,8 @@
 // compare 2 array have match value
 
 
+// time complexity O(n^2)
+// space complexity O(1)
 function isElementExists(arr1,arr2){
     
     for (let index = 0; index < arr1.length; index++) {
