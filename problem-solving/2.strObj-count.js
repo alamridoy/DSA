@@ -1,5 +1,9 @@
 // user give input some string. this problem solve this string count how many character and count
 
+
+
+  // time complexity O(n)
+  // space complexity O(n)
 function StringCount(str){
     let strObj = {}
 
