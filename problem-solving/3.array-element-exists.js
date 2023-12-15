@@ -1,26 +1,26 @@
 // compare 2 array have match value
 
 
-// function isElementExists(arr1,arr2){
+function isElementExists(arr1,arr2){
     
-//     for (let index = 0; index < arr1.length; index++) {
-//         const elementarr1 = arr1[index];
+    for (let index = 0; index < arr1.length; index++) {
+        const elementarr1 = arr1[index];
 
-//         for (let i = 0; i < arr2.length; i++) {
-//             const elementarr2 = arr2[i];
+        for (let i = 0; i < arr2.length; i++) {
+            const elementarr2 = arr2[i];
 
-//             if(elementarr1 === elementarr2){
-//                 return true
-//             }
+            if(elementarr1 === elementarr2){
+                return true
+            }
             
-//         }
+        }
        
         
-//     }
-//     return false
+    }
+    return false
  
-// }
-// console.log(isElementExists(['a','b','c'],[1,2,3,'z','c']))
+}
+console.log(isElementExists(['a','b','c'],[1,2,3,'z','c']))
 
 
 
