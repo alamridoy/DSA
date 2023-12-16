@@ -45,3 +45,30 @@ function isElementExists(arr1,arr2){
 }
 console.log(isElementExists([1,2,3,'a','c'],[4,8,7,0,'a']))
 
+
+
+
+
+
+// optimize another way
+// time conplexity is O(n+n) => O(n)
+// space conplexity is  O(n)
+function isElementExists(arr1,arr2){
+  
+    let frequenceCount = {}
+
+    for(let element of arr1){
+         frequenceCount[element] = true
+        
+    }
+
+    for(let secondElement of arr2){
+        if(secondElement in frequenceCount){
+            return true
+        }
+    }
+
+   return false
+ 
+}
+console.log(isElementExists([1,2,3,4,'c'],[8,7,0,'a']))
