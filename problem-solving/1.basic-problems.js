@@ -76,3 +76,36 @@ function removeDuplicate(nums) {
 }
 
 console.log(removeDuplicate([1, 2, 3, 4, 2, 4, 5, 6, 1,1]));
+
+
+
+
+
+
+// Question : here two array num1 = [1,2,3,4,5] and num2 = [1,2,3,1,2,1,3,4,5,2,3,4,1]. out this answer how many time first array number have second number
+
+function countArray(num1, num2) {
+    let trackCountArray = {};
+  
+    for (let numElement of num1) {
+      
+        trackCountArray[numElement] 
+      
+    }
+  
+    for (let countElement of num2) {
+      if (countElement in trackCountArray) {
+        trackCountArray[countElement]++;
+      } else {
+        trackCountArray[countElement] = 1;
+      }
+    }
+  
+    return trackCountArray;
+  }
+  
+  console.log(countArray([1, 2, 3, 4, 5], [1, 2, 3, 4, 5, 1, 2, 3,3,3,3,5]));
+  
+
+
+
