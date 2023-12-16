@@ -132,3 +132,22 @@ function countArray(num1, num2) {
   }
 
   calculate()
+
+
+
+
+  // Adding Sum from an array
+  // you have been provide an array of numbers
+  // you have to sum the numbers
+
+function addNumber(num){
+   let sum = 0
+   for (let index = 0; index < num.length; index++) {
+    
+    sum += num[index]
+    
+   }
+ return sum
+}
+
+  console.log(addNumber([1,2,3,4,5,10,20]))
