@@ -189,7 +189,21 @@ function findingMin(num){
    return min_num
 }
 
-  console.log(findingMin([2,3,1,5,10,36,0,4,9,21,11]))
+  console.log(findingMin([2,3,1,7]))
+
+
+
+//string reverse
+function strReverse(str) {
+  let reversedString = '';
+  for (let index = str.length - 1; index >= 0; index--) {
+    reversedString += str[index];
+  }
+  return reversedString;
+}
+
+console.log(strReverse('Bangladesh'));
+
 
 
 
