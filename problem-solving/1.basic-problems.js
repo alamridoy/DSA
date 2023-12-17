@@ -145,9 +145,32 @@ function addNumber(num){
    for (let index = 0; index < num.length; index++) {
     
     sum += num[index]
-    
+   
    }
- return sum
+   return sum
 }
 
   console.log(addNumber([1,2,3,4,5,10,20]))
+
+
+
+
+
+
+//give an array finding maximun number and minimun number
+function findingMax(num){
+  let max_num = num[0] 
+   for (let index = 0; index < num.length; index++) {
+      let elementVal = num[index]
+
+        if(elementVal>max_num){
+          max_num =elementVal
+        } 
+   
+   }
+   return max_num
+}
+
+  console.log(findingMax([2,3,1,5,10,36,4,9,21,11]))
+
+
