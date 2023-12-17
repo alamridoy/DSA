@@ -174,3 +174,22 @@ function findingMax(num){
   console.log(findingMax([2,3,1,5,10,36,4,9,21,11]))
 
 
+  
+//give an array finding minimun number and minimun number
+function findingMin(num){
+  let min_num = num[0] 
+   for (let index = 0; index < num.length; index++) {
+      let elementVal = num[index]
+
+        if(elementVal < min_num){
+          min_num =elementVal
+        } 
+   
+   }
+   return min_num
+}
+
+  console.log(findingMin([2,3,1,5,10,36,0,4,9,21,11]))
+
+
+
