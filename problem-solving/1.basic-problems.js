@@ -204,6 +204,19 @@ function strReverse(str) {
 
 console.log(strReverse('Bangladesh'));
 
+// another way
+function strReverse(str) {
+  let newstr = str.split('')
+  let rev = newstr.reverse()
+  let val = rev.join('')
+ 
+ 
+  return val;
+}
+
+console.log(strReverse('Bangladesh'));
+
+
 
 
 
