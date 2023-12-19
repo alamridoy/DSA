@@ -218,5 +218,19 @@ console.log(strReverse('Bangladesh'));
 
 
 
+// integer reverse
+// Q: input -90 output : -9
+function intReverse(int) {
+  let num = int.toString().split('').reverse().join('')
+  
+  if(num.endsWith('-')){
+    num = '-' + num.slice(0,num.length-1)
+  }
+  return parseInt(num,10)
+}
+console.log(intReverse(-90));
+console.log(intReverse(176));
+
+
 
 
